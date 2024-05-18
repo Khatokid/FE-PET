@@ -1,0 +1,101 @@
+.carousel{
+    img{
+        width: 100%;
+    object-fit: cover;
+    height: 80dvh;
+    object-position: top;
+    }
+    .body_1{
+        padding: 50px 70px;
+        justify-content: space-between;
+        display: flex;
+        img{
+            height: 120px;
+            object-fit: cover;
+            width: 120px;
+        }
+        .body_left{
+            display: flex;
+    
+            .BContent_1{
+              
+                margin-left: 40px;
+                width: 270px; 
+                p{
+                    padding-top: 20px;
+                }
+            }
+        }
+        .body_right{
+            display: flex;
+            .BContent_1{
+                margin-left: 40px;
+                width: 270px; 
+                p{
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+    .img2{
+        width: 250px;
+        height: 150px;
+    }
+    h3{
+        color: rgba(0,0,0,0.7);
+        text-align: center;
+        padding: 40px;
+        font-size: 40px;
+    }
+    .box-img{
+        padding: 10px 100px;
+    }
+    .box-img2{
+        padding: 10px 100px;
+    }
+    .footer{
+        margin-top: 50px;
+        height: 250px;
+        width: 100%;
+        background-color: #000;
+    }
+    .footer{
+        display: flex;
+        
+        justify-content: space-between;
+        padding: 10px 90px;
+        .footer_left{
+            width: 390px;
+            padding-top: 50px;
+            h4{
+                padding: 20px 0;
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+            .ListIcon{
+                display: flex;
+                p{
+                    padding: 10px 10px;
+                }
+            }
+        }
+        .footer_right{
+            padding-top: 50px;
+            h4{
+                border-bottom: 2px solid #fff;
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+            li{
+                padding: 5px 0;
+                list-style: none;
+                color: #fff;
+            }
+            
+        }
+    }
+}
